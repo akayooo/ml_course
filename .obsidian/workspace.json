@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced techniques in Regression Methods.md",
+                "file": "Classic/Advanced techniques in Regression Methods.md",
                 "mode": "source",
                 "source": false
               },
@@ -198,11 +198,11 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "d870d3eb51f2f1fa",
+  "active": "c3509e4ba6746e54",
   "lastOpenFiles": [
     "Classic/LogisticRegression.md",
+    "Classic/Advanced techniques in Regression Methods.md",
     "ClassicML_row.md",
-    "Advanced techniques in Regression Methods.md",
     "Classic/Введение в Машинное обучениe. Зачем это науке и бизнесу?.md",
     "Classic/Introduction.md"
   ]
