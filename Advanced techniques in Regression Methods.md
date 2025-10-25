@@ -105,20 +105,7 @@ C -.->|Низкое смещение<br/>Высокая дисперсия| F[П
 
 ### Определение оптимальной сложности
 
-%% **График зависимости ошибки от сложности модели:**
-Ошибка  
-│  
-│ Test Error  
-│ ╱╲  
-│ ╱ ╲  
-│ ╱ ╲___  
-│ ╱  
-│ ___╱ Train Error  
-│ ╱  
-└─────────────────────► Сложность модели
-
-Недообучение Оптимум Переобучение
- %%
+```mermaid graph LR A[Недообучение<br/>(Underfitting)] --> B[Оптимум<br/>(Optimal Complexity)] B --> C[Переобучение<br/>(Overfitting)] subgraph Ошибка модели D1[Train Error ↓]:::train D2[Test Error ↑]:::test end classDef train fill:#a2d2ff,stroke:#333,stroke-width:1px; classDef test fill:#ffafcc,stroke:#333,stroke-width:1px; ```
 
 **Практический подход:**
 1. Начните с простой модели (полином 1-й степени)
