@@ -200,8 +200,14 @@
   },
   "active": "c3509e4ba6746e54",
   "lastOpenFiles": [
-    "Classic/LogisticRegression.md",
     "Classic/Advanced techniques in Regression Methods.md",
+    "f.md",
+    "Classic/LinearRegression.md",
+    "Classic/Notebooks/LinearRegression/Regression_Tutorial.ipynb",
+    "Classic/Notebooks/LinearRegression",
+    "Classic/Notebooks/LogisticRegression",
+    "Classic/Notebooks/Regression/Regression_Tutorial.ipynb",
+    "Classic/LogisticRegression.md",
     "ClassicML_row.md",
     "Classic/Введение в Машинное обучениe. Зачем это науке и бизнесу?.md",
     "Classic/Introduction.md"
