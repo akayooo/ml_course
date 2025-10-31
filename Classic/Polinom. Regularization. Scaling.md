@@ -248,7 +248,9 @@ graph LR
 
 **Формула:**
 
-$\text{Loss}$ = $\sum_{i=1}^n$ ($y_i$ - $\hat{y}_i$)$^2$ + $\lambda$ $\sum_{j=1}^p$ $\beta_j^2$
+> $$
+> \text{Loss} = \sum_{i=1}^n (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^p \beta_j^2
+> $$
 
 где $\lambda$ — параметр регуляризации (сила штрафа).
 
@@ -296,14 +298,12 @@ $\text{Loss}$ = $\sum_{i=1}^n (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^p |\beta_
 ### Elastic Net (Комбинация L1 и L2)
 
 **Формула:**
-$$
-\text{Loss} = \sum_{i=1}^n (y_i - \hat{y}_i)^2 + \lambda_1 \sum_{j=1}^p |\beta_j| + \lambda_2 \sum_{j=1}^p \beta_j^2
-$$
+$\text{Loss}$ = $\sum_{i=1}^n$ ($y_i$ - $\hat{y}_i$)$^2$ + $\lambda_1$ $\sum_{j=1}^p$ $|\beta_j|$ + $\lambda_2$ $\sum_{j=1}^p$ $\beta_j^2$
 
 Или в альтернативной записи:
-$$
-\text{Loss} = \text{MSE} + \lambda \left( \alpha \sum_{j=1}^p |\beta_j| + (1-\alpha) \sum_{j=1}^p \beta_j^2 \right)
-$$
+$\text{Loss}$ = $\text{MSE}$ + $\lambda$ $\left( \alpha \sum_{j=1}^p |\beta_j| + (1-\alpha) \sum_{j=1}^p \beta_j^2 \right)$
+
+где $\alpha$ контролирует баланс между L1 и L2 (при $\alpha$ получаем LASSO, при $\alpha$ — Ridge).
 
 > [!TIP]
 > **Adaptive LASSO и группировка коэффициентов**
