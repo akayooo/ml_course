@@ -248,7 +248,7 @@ graph LR
 
 **Формула:**
 
-$\text{Loss}$ = $\sum_{i=1}^n (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^p \beta_j^2$
+$\text{Loss}$ = $\sum_{i=1}^n$ ($y_i$ - $\hat{y}_i$)^2 + $\lambda$ $\sum_{j=1}^p$ $\beta_j^2$
 
 
 где $\lambda$ — параметр регуляризации (сила штрафа).
