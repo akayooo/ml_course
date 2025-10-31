@@ -247,9 +247,9 @@ graph LR
 ### Ridge регрессия (L2-регуляризация)
 
 **Формула:**
-$$
-\text{Loss} = \sum_{i=1}^n (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^p \beta_j^2
-$$
+
+$\text{Loss}$ = $\sum_{i=1}^n (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^p \beta_j^2$
+
 
 где $\lambda$ — параметр регуляризации (сила штрафа).
 
@@ -269,9 +269,9 @@ $$
 ### LASSO регрессия (L1-регуляризация)
 
 **Формула:**
-$$
-\text{Loss} = \sum_{i=1}^n (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^p |\beta_j|
-$$
+
+$\text{Loss}$ = $\sum_{i=1}^n (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^p |\beta_j|$
+
 
 **Особенности:**
 - Использует абсолютное значение коэффициентов в штрафе
@@ -386,9 +386,9 @@ $$
 ### Стандартизация (Standardization, Z-score normalization)
 
 **Формула:**
-$$
-X_{\text{scaled}} = \frac{X - \mu}{\sigma}
-$$
+
+$X_{\text{scaled}}$ = $\frac{X - \mu}{\sigma}$
+
 
 где $\mu$ — среднее, $\sigma$ — стандартное отклонение.
 
@@ -409,9 +409,8 @@ $$
 ### Нормализация (Min-Max Scaling)
 
 **Формула:**
-$$
-X_{\text{scaled}} = \frac{X - X_{\min}}{X_{\max} - X_{\min}}
-$$
+
+$X_{\text{scaled}}$ = $\frac{X - X_{\min}}{X_{\max} - X_{\min}}$
 
 **Результат:** данные находятся в диапазоне [0, 1].
 
